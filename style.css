@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    padding: 20px;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    width: 400px;
+    border: 1px solid #ccc;
+}
+
+.submit-btn {
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.content {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+i {
+    color: grey;
+}
+
+h1 {
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: #6e6e6e;
+    color: white;
+    border-radius: 15px;
+}
+
+.resultado {
+    padding: 20px;
+}
+
+.resultado ul li {
+    font-size: 20px;
+    list-style: none;
+    text-align: start;
+}
+
+
+.error {
+    font-size: 20px;
+    font-weight: bold;
+}

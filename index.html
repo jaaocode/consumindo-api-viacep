@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <form action="/" class="form">
+                <input type="text" id="cepDigitado" placeholder="Digite seu CEP">
+                <button class="submit-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h1>CEP Buscado</h1>
+        <div class="resultado"></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/78c02f328b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
